@@ -9,6 +9,7 @@ export default {
     file: 'dist/bundle.js', // Çıkış dosyası
     format: 'es', // ES module formatında çıktıyı sağlar
     sourcemap: true,
+    publicPath: '/',
   },
   plugins: [
     resolve(), // Node modüllerini çözümler
