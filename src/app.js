@@ -51,7 +51,7 @@ class App extends LitElement {
 
     if (table) {
       // Fetch data from the JSON file
-      fetch('../src/services/data.json')
+      fetch('/src/services/data.json')
         .then((response) => response.json())
         .then((json) => {
           table.headers = json.headers;
