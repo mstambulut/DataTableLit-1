@@ -9,7 +9,7 @@ class Translations {
   async loadTranslations(lang) {
     try {
       const response = await fetch(
-        `../../src/translations/locales/${lang}.json`
+        `/src/translations/locales/${lang}.json`
       );
 
       this.translations = await response.json();
